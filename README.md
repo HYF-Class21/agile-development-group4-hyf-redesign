@@ -6,7 +6,7 @@
 
 ## Table of contents
 
-- [HYF](#HYF)
+- [HYF](#hyf)
   - [Table of contents](#table-of-contents)
   - [Screenshots](#screenshots)
   - [Team Members](#team-members)
