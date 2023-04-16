@@ -2,27 +2,26 @@
 
 ## Group Rules
 
-<!-- any general rules you'd like to set for your group? -->
+## Daily Standup Meetings
 
----
+- Analyzing the current state of the project
+- Discussing what each member should do next
+- Discussing next steps/topics
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion |
-| --- | :-: | ----------------------- |
-|     |     |                         |
+|    Day    |     How      |           The topic of discussion            |
+| :-------: | :----------: | :------------------------------------------: |
+|  Monday   | Zoom meeting |        User persona, backlog, design         |
+| Wednesday | Zoom meeting |    Development strategy, creating issues     |
+| Thursday  | Zoom meeting | Review of the rebuilt project, retrsopection |
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
+How often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **GitHub Discussions**
-- **Slack/Discord**:
-- **Video Calls**:
-
----
+- **Slack**: whenever needed
+- **Video Calls**: during evenings, 3 times a week
 
 ## Availability
 
@@ -30,15 +29,16 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 | Day    | Monday  | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday  |
 | ------ | :-----: | :-----: | :-------: | :------: | :-----: | :------: | :-----: |
-| _name_ | 13 - 20 | 13 - 20 |  13 - 20  | 13 - 20  | 13 - 20 | 13 - 20  | 13 - 20 |
+| Alex   | 18 - 21 | 18 - 21 |  18 - 21  | 18 - 21  | 18 - 21 |    NA    | 12 - 16 |
+| Juan   | 18 - 21 | 18 - 21 |  18 - 21  | 18 - 21  | 18 - 21 |    NA    | 12 - 16 |
+| Faisal | 16 - 21 | 16 - 21 |  16 - 21  | 16 - 21  | 16 - 21 |    NA    | 12 - 16 |
 
 ### How many hours everyone has per day
 
-- name: _5h_; extra comments?
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- Alex: _6h_; Busy with studies so won't always be able available.
+- Juan: _6h_; Not available for the whole day
+- Faisal: _6h_; Sometimes works from 17 - 20 and won't be available during those
+  hours.
 
 ## Asking for Help
 
