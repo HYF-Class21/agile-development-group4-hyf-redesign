@@ -106,10 +106,6 @@
 - add `p` tag with class `impact-p`
 - add 3 `div` with class `impact-boxes` tags.
 
-#### - CSS -
-
-#### Task 1
-
 - Comment this section
 - add `.description-container` with display; flex;justify-content; width;
   padding;position; flex.
@@ -126,8 +122,6 @@
 - add `.description-img` with align-items;box-sizing; display; flex-direction;
   height; justify-content; max-height; max-width; width; position; background;
   flex; margin; padding.
-
-#### Task 2
 
 - Comment this section
 - add `.impact` with display; justify-content; width; padding; position;
@@ -152,16 +146,12 @@
 
 > As a user i want to see which partners and collaborators HackYourFuture has.
 
-### - HTML -
-
 - Comment this section
 - add `section` tag with class `partners`
 - add `div` tag with class `partners-container`
 - add `h2` tag with class `partners-title` with text between tags
 - add `div` tag with class `partners-icon-container` with text between tags.
 - add 16 `div` tags with class `partners-icon-boxes`
-
-### - CSS -
 
 - Comment this section
 - add `.partners` with display; justify-content; width; padding; position;
@@ -183,8 +173,6 @@
 > As a user i want to have a `form` where i can write my information and send it
 > to HackYourFuture staff.
 
-### - HTML -
-
 - Comment this section
 - add `section` tag with class `form-section`
 - add `div` tag with class `form-container`
@@ -194,8 +182,6 @@
 - add `label` tag with class `fields-labels`
 - add `input` tag with class `fields-inputs`
 - add `textarea` tag with class `fields-message`
-
-### - CSS -
 
 - Comment this section
 - add `.form-section` with display; justify-content; width; padding; position;
@@ -222,8 +208,6 @@
 > As a user i want to have links to different platforms related to
 > HackYourFuture.
 
-### - HTML -
-
 - Comment this section
 - add `footer` element and define class `footer`
 - add `div` with class `footer-content`
@@ -235,8 +219,6 @@
 - add 4 `a` with class `footer-icons`, define `href`, target and
 - add an `img` tag inside `a` tags. with class `icon` and define `src` to an
   asset.
-
-### - CSS -
 
 - Comment this section
 - add `.footer` with padding; justify-content;positionl; box-shadow align-items;
@@ -320,4 +302,4 @@
 - add `.footer-icons` with color; text-align;max-width; line-height; font-size;
   font-family; margin; font-weight.
 
-  ***
+---
