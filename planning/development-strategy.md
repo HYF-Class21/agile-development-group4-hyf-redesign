@@ -49,7 +49,7 @@
 > As a user i want to have a navigation bar with links so i can navigate between
 > different pages .
 
-### - HTML -
+#### - HTML -
 
 - Comment this section
 - add `nav` tag nested in `header` and define class `nav-links`
@@ -57,7 +57,7 @@
 - add `span` tags nested into `a` tags.
 - add `a` tag with class `nav-btn`, target and text in between tags.
 
-### - CSS -
+#### - CSS -
 
 - Comment this section
 - add `.nav` with padding; justify-content;positionl; box-shadow align-items;
@@ -77,16 +77,18 @@
 
 > As a user i want to know more about the program offered by HackYourFuture.
 
-#### - HTML -
+<!--#### - HTML -
 
-<!-- Not supposed to be here
+ Not supposed to be here
 - add `section` tag with class `welcome`
 - add `div` tag with class `welcome-container`
 - add `h1` tag with class `welcome-title`
 - add `img` tag with class `welcome-image` and define `src`.
 -->
 
-#### Task 1
+### Task 1
+
+#### - CSS -
 
 - Comment this section
 - add `section` tag with class `description-container`
@@ -97,7 +99,9 @@
 - add `button` tag nested in `a` tag.
 - add `img` tag with class `description-img`
 
-#### Task 2
+### Task 2
+
+#### - HTML -
 
 - Comment this section
 - add `section` tag with class `impact`
@@ -105,6 +109,8 @@
 - add `h2` tag with class `impact-title` with text between tags
 - add `p` tag with class `impact-p`
 - add 3 `div` with class `impact-boxes` tags.
+
+#### - CSS -
 
 - Comment this section
 - add `.description-container` with display; flex;justify-content; width;
@@ -146,12 +152,16 @@
 
 > As a user i want to see which partners and collaborators HackYourFuture has.
 
+#### - HTML -
+
 - Comment this section
 - add `section` tag with class `partners`
 - add `div` tag with class `partners-container`
 - add `h2` tag with class `partners-title` with text between tags
 - add `div` tag with class `partners-icon-container` with text between tags.
 - add 16 `div` tags with class `partners-icon-boxes`
+
+#### - CSS -
 
 - Comment this section
 - add `.partners` with display; justify-content; width; padding; position;
@@ -173,6 +183,8 @@
 > As a user i want to have a `form` where i can write my information and send it
 > to HackYourFuture staff.
 
+#### - HTML -
+
 - Comment this section
 - add `section` tag with class `form-section`
 - add `div` tag with class `form-container`
@@ -182,6 +194,8 @@
 - add `label` tag with class `fields-labels`
 - add `input` tag with class `fields-inputs`
 - add `textarea` tag with class `fields-message`
+
+#### - CSS -
 
 - Comment this section
 - add `.form-section` with display; justify-content; width; padding; position;
@@ -208,6 +222,8 @@
 > As a user i want to have links to different platforms related to
 > HackYourFuture.
 
+#### - HTML -
+
 - Comment this section
 - add `footer` element and define class `footer`
 - add `div` with class `footer-content`
@@ -219,6 +235,8 @@
 - add 4 `a` with class `footer-icons`, define `href`, target and
 - add an `img` tag inside `a` tags. with class `icon` and define `src` to an
   asset.
+
+#### - CSS -
 
 - Comment this section
 - add `.footer` with padding; justify-content;positionl; box-shadow align-items;
@@ -241,28 +259,145 @@
 
 > Note this is the development strategy for the main page of this website.
 
-### 1. Title
+### 1. Title Volunteers
 
 - This user story is developed on branch `volunteers-title`
 - This branch is merged to `main` branch after completion.
+  > As a user I want to read the title of the page.
 
-> As a user i want to read the title of the page.
+#### - HTML -
 
-### 2. Navbar
+- Comment this section
+- add `header` tag and define class `top-bar`
+- add `div` tag with class `logo`
+- add `img` tag with class `logo-image` and define `href`
+
+#### - CSS -
+
+- Comment this section
+- add `.header` with display; width; height; min-height; box-sizing; padding.
+- add `.logo` with display; justify-content; align-items; height.
+- add `.logo-image` with width; height; object-fit; border-radius.
+
+### 2. Navbar Volunteers
 
 - This user story is developed on branch `volunteers-navbar`
 - This branch is merged to `main` branch after completion.
+  > As a user i want to have a `navbar` so i can navigate between different
+  > pages.
 
-> As a user i want to have a `navbar` so i can navigate between different pages.
+#### - HTML -
 
-### 3. Main section
+- Comment this section
+- add `nav` tag nested in `header` and define class `nav-links`
+- add 2 `a` tags with class `nav-items` defining an `href`.
+- add `span` tags nested into `a` tags.
+- add `a` tag with class `nav-btn`, target and text in between tags.
 
-- This user story is developed on branch `volunteers-description`
+#### - CSS -
+
+- Comment this section
+- add `.nav` with padding; justify-content; position; box-shadow align-items;
+  margin; color; font-family; witdth.
+- add `.nav-links` with display; justify-content; align-items.
+- add `.nav span` with position; font-family.
+- add `.nav-items` with display; align-items; height; color; font-size;
+  line-height; text-transform; padding; font-family.
+- add `.nav-btn` with display; font size; line-height; text-decoration;
+  background-color; color; font-weight; border; border-radius; box-sizing;
+  padding; cursor; text-transform; align-items; font-family.
+- add underline element under the nav button of the page when active on it
+
+### 3. Intro section
+
+- This user story is developed on branch `volunteers-intro`
 - This branch is merged to `main` branch after completion.
+  > As a user i want to volunteer for HackYourFuture.
 
-> As a user i want to volunteer for HackYourFuture.
+#### - HTML -
 
-### 4.Footer
+- Comment this section
+- add `section` tag with class `volunteer-intro-container`
+- add `div` tag with class `volunteer-intro`
+- add `h2` tag with class `volunteer-intro-title`
+- add `p` tag and include a description of what it's like to be a coach at HYF
+- add `div` tag with class `volunteer-intro-buttons`
+- add 2 `a` tags with href links and text in between tags
+
+#### - CSS -
+
+- Comment this section
+- add `.volunteer-intro-container` with display; justify-content; width
+- add `.volunteer-intro` with align-items; display; flex-direction;
+  justify-content; margin
+- add `.volunteer-intro-title` with font-size; margin-bottom; text-transform;
+  font-family; font-weight; color
+- inside `.volunteer-intro` for `p` tag add color; text-align; max-width;
+  font-size; font-family; margin
+- add `.volunteer-intro-buttons` with align-items; display; flex-direction;
+  justify-content; margin
+- for `a` tags inside `.volunteer-intro-buttons` add display; font-size;
+  background-color; color; font-weight; border; border-radius; padding; cursor;
+  text-transform; align-items; font-family
+
+### 4. Volunteer testimonials
+
+- This user story is developed on branch `volunteers-testimonial`
+- This branch is merged to `main` branch after completion.
+  > As a user i want to know what is like to volunteer for HackYourFuture.
+
+#### - HTML -
+
+##### Part 1
+
+- Comment this section
+- add `section` tag with class `volunteers-testimonial-container`
+- add `div` inside `section` with class `volunteers-testimonial-1`
+- add `div` inside `volunteers-testimonial-1` div with class `testimonial-img-1`
+- add `div` inside `volunteers-testimonial-1` div with class `testimonial-1`
+- add `h4` tag with class `volunteer-testimonial-name`
+- add `p` tag with class `volunteer-testimonial-position`
+- add `p` tag with class `volunteer-testimonial-text`
+- inside `testimonial-1` add `a` tag with class `volunteer-discover`
+
+##### Part 2
+
+- Comment this section
+- add `section` tag with class `volunteers-testimonial-container`
+- add `div` inside `section` with class `volunteers-testimonial-2`
+- add `div` inside `volunteers-testimonial-2` div with class `testimonial-img-2`
+- add `div` inside `volunteers-testimonial-2` div with class `testimonial-2`
+- add `h4` tag with class `volunteer-testimonial-name`
+- add `p` tag with class `volunteer-testimonial-position`
+- add `p` tag with class `volunteer-testimonial-text`
+- inside `testimonial-2` add `a` tag with class `volunteer-discover`
+
+#### - CSS -
+
+- Comment this section
+- add `.volunteers-testimonial-container` with display; width; justify-content;
+  padding
+- add `.volunteers-testimonial-1` with display; width; justify-content;
+  align-items
+- add `.volunteers-testimonial-2` with display; width; justify-content;
+  align-items
+- add `.testimonial-img-1` with display; width; min-width; order
+- add `.testimonial-img-2` with display; width; min-width; order
+- add `.testimonial-1` with display; flex-direction; align-items; max-width;
+  order
+- add `.testimonial-2` with display; flex-direction; align-items; max-width;
+  order
+- add `.volunteer-testimonial-name` with font-size; font-family; font-weight;
+  color; text-align
+- add `.volunteer-testimonial-position` with color; text-align; font-family;
+  font-weight
+- add `.volunteer-testimonial-text` with color; text-align; font-size;
+  font-family;
+- add `.volunteer-discover` with display; font-size; background-color; color;
+  font-weight; border; border-radius; padding; cursor; text-transform;
+  align-items; font-family
+
+### 4. Footer Volunteers
 
 - This user story is developed on branch `volunteers-footer`
 - This branch is merged to `main` branch after completion.
@@ -270,7 +405,7 @@
 > As a user i want to have links to different platforms related to
 > HackYourFuture.
 
-### - HTML -
+#### - HTML -
 
 - Comment this section
 - add `footer` element and define a class `footer`
@@ -283,7 +418,7 @@
 - add a 4 `a` with class `footer-icons`, define `href`, target and
 - add a `img` inside `a`tags. define class `icon` and define `src` to an asset.
 
-### - CSS -
+#### - CSS -
 
 - Comment this section
 - add `.footer` with padding; justify-content;position; box-shadow; align-items;
