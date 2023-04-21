@@ -86,9 +86,9 @@
 - add `img` tag with class `welcome-image` and define `src`.
 -->
 
-### Task 1
+### Add description section
 
-#### - CSS -
+#### - HTML -
 
 - Comment this section
 - add `section` tag with class `description-container`
@@ -99,7 +99,7 @@
 - add `button` tag nested in `a` tag.
 - add `img` tag with class `description-img`
 
-### Task 2
+### Add impact section
 
 #### - HTML -
 
