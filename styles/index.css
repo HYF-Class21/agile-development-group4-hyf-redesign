@@ -61,3 +61,56 @@ body {
   align-items: center;
   font-family: "Work Sans", sans-serif;
 }
+
+/* Volunteers intro section */
+
+.volunteer-intro-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 20px;
+}
+
+.volunteer-intro {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.volunteer-intro-title {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: rgb(28, 34, 148);
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+}
+
+.volunteer-intro p {
+  max-width: 550px;
+  font-size: 16px;
+  line-height: 160%;
+  margin-top: 0;
+  text-align: center;
+}
+
+.volunteer-intro-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.volunteer-intro-buttons a {
+  background-color: rgb(74, 80, 187);
+  color: white;
+  padding: 10px 20px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
