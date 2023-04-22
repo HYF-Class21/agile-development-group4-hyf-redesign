@@ -22,3 +22,60 @@
   object-fit: contain;
   border-radius: 0;
 }
+
+/* 2. Navbar--> */
+
+/* .nav {
+  padding: 0px; 
+  justify-content:flex-start;
+  position: static; 
+  box-shadow: none;
+  align-items: center; 
+  margin: auto; 
+  color: ; 
+  font-family; 
+  width ;
+} */
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+.nav span {
+  position: relative;
+  font-family: "Work Sans", sans-serif;
+}
+
+.nav-items {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  color: rgb(127, 127, 127);
+  font-size: 12px;
+  line-height: 160%;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.nav-btn {
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  background-color: rgb(74, 80, 187);
+  color: white;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
