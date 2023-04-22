@@ -41,6 +41,14 @@ had a similar structure.
 - Some styling statements were confusing to add because they are subtle enough
   to be missed for an untrained eye :sad:.
 
+- When working with media querries it's somewhat difficult to understand how
+  resizing of different elements works while at the same time trying to maintain
+  the proportions of those elements the same.
+
 ### Did you need to add things that weren't in your strategy?
+
+- After starting to write HTML and CSS some of us had to make changes to our
+  structure and styling because it did not turn out like the original look of
+  the website, and therefore had to change our dev. strat.
 
 ### Or remove extra steps?
