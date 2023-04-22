@@ -56,6 +56,11 @@ HackYourFuture's program.
   - [ ] _there is a `section` at the main section with a short introduction of
         the program_.
 
+- As a user i want to know what is like to volunteer for HackYourFuture.
+
+  - [ ] _there is a `section` at the main section with some experiences of
+        actual mentors and coaches_.
+
 - As a user i want to have links to different platforms related to
   HackYourFuture.
 
@@ -88,11 +93,6 @@ HackYourFuture's program.
   HackYourFuture.
 
   - [ ] _there are `buttons` which link to forms to sign up for the program_.
-
-- As a user i want to know what is like to volunteer for HackYourFuture.
-
-  - [ ] _there is a `section` at the main section with some experiences of
-        actual mentors and coaches_.
 
 ## Could-Haves
 
