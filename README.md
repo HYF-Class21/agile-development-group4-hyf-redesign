@@ -1,76 +1,42 @@
-# Name of project
+# HYF
 
-> A longer description
+> This website is about HYF, a programming course for students with different
+> backgrounds. Here the users can navigate thrughout the website to find out
+> more information about the courses as well as apply to become a member.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [HYF](#hyf)
   - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
   - [Screenshots](#screenshots)
+  - [Team Members](#team-members)
   - [Technologies](#technologies)
   - [Setup](#setup)
-  - [Code Examples](#code-examples)
-  - [Features](#features)
-  - [Status](#status)
-  - [Inspiration](#inspiration)
-  - [Contact](#contact)
   - [Instructions for use](#instructions-for-use)
   - [Code Quality Checks](#code-quality-checks)
   - [Continuous Integration (CI)](#continuous-integration-ci)
   - [Repo Setup](#repo-setup)
 
-## General info
-
-> A short description
-
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Screenshot](./public/screenshot.jpg)
+
+## Team Members
+
+- [Alex](https://github.com/alex-maletskyi)
+- [Juan](https://github.com/jialvaradob)
+- [Faisal](https://github.com/faisal-rustamkhel)
 
 ## Technologies
 
 - Node 14.16.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML5 & CSS3
 
 ## Setup
 
-- `npm run start`
-
-## Code Examples
-
-```js
-// the hello world program
-console.log("Hello World");
-```
-
-## Features
-
-List of features ready and Todos for future development
-
--
--
--
-
-To-do list:
-
--
--
-
-## Status
-
-Project is: _in progress_
-
-## Inspiration
-
-Project by freeCodeCamp.org
-
-## Contact
-
-By [Name]
+- clone the repo
+- npm install
 
 ## Instructions for use
 
@@ -79,8 +45,8 @@ By [Name]
 
 <!-- a guide to using this repository -->
 
-1. `git clone git@github.com:HackYourFutureBelgium/template-markdown.git`
-2. `cd template-markdown`
+1. `https://github.com/HYF-Class21/agile-development-group4-hyf-redesign`
+2. `agile-development-group4-hyf-redesign`
 3. `npm install`
 
 ## Code Quality Checks
@@ -113,17 +79,16 @@ locally.
 
 ## Repo Setup
 
-- Give each member **_write_** access to the repo (if it's a group project)
+- Give each member _write_ access to the repo (if it's a group project)
 - Turn on GitHub Pages and put a link to your website in the repo's description
 - Turn on GitHub Actions
-- In _General_ Section > check **Discussions**
-- In the _Branches_ section of your repo's settings make sure the
-  `master`/`main` branch must:
-  - "_Require a pull request before merging_"
-  - "_Require approvals_"
-  - "_Dismiss stale pull request approvals when new commits are pushed_"
-  - "_Require status checks to pass before merging_"
-  - "_Require branches to be up to date before merging_"
-  - "_Do not allow bypassing the above settings_"
+- in the _Branches_ section of your repo's settings make sure:
+  - The repository
+    [requires a review](https://github.blog/2018-03-23-require-multiple-reviewers/)
+    before pull requests can be merged.
+  - The `master`/`main` branch must "_Require status checks to pass before
+    merging_"
+  - The `master`/`main` branch must "_Require require branches to be up to date
+    before merging_"
 
 </details>
