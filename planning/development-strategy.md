@@ -257,8 +257,6 @@
 
 ## Volunteers
 
-> Note this is the development strategy for the main page of this website.
-
 ### 1. Title Volunteers
 
 - This user story is developed on branch `volunteers-title`
@@ -286,7 +284,7 @@
   > As a user i want to have a `navbar` so i can navigate between different
   > pages.
 
-#### - HTML -
+### - HTML -
 
 - Comment this section
 - add `nav` tag nested in `header` and define class `nav-links`
@@ -294,7 +292,7 @@
 - add `span` tags nested into `a` tags.
 - add `a` tag with class `nav-btn`, target and text in between tags.
 
-#### - CSS -
+### - CSS -
 
 - Comment this section
 - add `.nav` with padding; justify-content; position; box-shadow align-items;
@@ -397,13 +395,100 @@
   font-weight; border; border-radius; padding; cursor; text-transform;
   align-items; font-family
 
-### 4. Footer Volunteers
+#### 4. Volunteer testimonials
+
+- This user story is developed on branch `volunteers-testimonial`
+- This branch is merged to `main` branch after completion.
+  > As a user i want to know what is like to volunteer for HackYourFuture.
+
+##### - HTML -
+
+###### Part 1
+
+- Comment this section
+- add `section` tag with class `volunteers-testimonial-container`
+- add `div` inside `section` with class `volunteers-testimonial-1`
+- add `div` with class `testimonial-img-1`
+- add `img` tag
+- add `div` with class `testimonial-container`
+- add `div` with class `testimonial-1`
+- add `h4` tag with class `volunteer-testimonial-name`
+- add `p` tag with class `volunteer-testimonial-position`
+- add `p` tag with class `volunteer-testimonial-text`
+- outside `testimonial-1` div add `a` tag with class `volunteer-discover`
+
+###### Part 2
+
+- Comment this section
+- add `section` tag with class `volunteers-testimonial-container`
+- add `div` inside `section` with class `volunteers-testimonial-2`
+- add `div` with class `testimonial-img-2`
+- add `img` tag
+- add `div` with class `testimonial-container`
+- add `div` with class `testimonial-2`
+- add `h4` tag with class `volunteer-testimonial-name`
+- add `p` tag with class `volunteer-testimonial-position`
+- add `p` tag with class `volunteer-testimonial-text`
+- outside `testimonial-2` div add `a` tag with class `volunteer-discover`
+
+##### - CSS -
+
+- Comment this section
+- add `.volunteers-testimonial-container` with display; width; justify-content;
+  padding
+- add `.volunteers-testimonial-1` with display; width; justify-content;
+  align-items
+- add `.volunteers-testimonial-2` with display; width; justify-content;
+  align-items
+- add `.testimonial-img-1` with display; width; min-width; order
+- add `.testimonial-img-2` with display; width; min-width; order
+- add `.testimonial-container` max-width; display flex-direction;
+  justify-content
+- add `.testimonial-1` with display; flex-direction; align-items; max-width;
+  order
+- add `.testimonial-2` with display; flex-direction; align-items; max-width;
+  order
+- add `.volunteer-testimonial-name` with font-size; font-family; font-weight;
+  color; text-align
+- add `.volunteer-testimonial-position` with color; text-align; font-family;
+  font-weight
+- add `.volunteer-testimonial-text` with color; text-align; font-size;
+  font-family;
+- add `.volunteer-discover` with display; font-size; background-color; color;
+  font-weight; border; border-radius; padding; cursor; text-transform;
+  align-items; font-family
+
+#### 4. Footer Volunteers
 
 - This user story is developed on branch `volunteers-footer`
 - This branch is merged to `main` branch after completion.
 
 > As a user i want to have links to different platforms related to
 > HackYourFuture.
+
+##### - HTML -
+
+- Comment this section
+- add `footer` element and define a class `footer`
+- add `div` with class `footer-icons`
+- add a 4 `a`
+- add a `img` inside `a` tags
+
+##### - CSS -
+
+- Comment this section
+- add `.footer` with padding; justify-content; box-shadow;
+- add `.footer-content` with align-items; display;flex-direction; height
+- add `.footer-icons` with display; justify-content
+- add `.footer-icons a` with margin
+
+### 4. Footer Volunteers
+
+- This user story is developed on branch `volunteers-footer`
+- This branch is merged to `main` branch after completion.
+
+  > As a user i want to have links to different platforms related to
+  > HackYourFuture.
 
 #### - HTML -
 
