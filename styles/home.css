@@ -1,12 +1,18 @@
 @import url("./something.css");
 
+/* Title */
+
 .top-bar {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: 85px;
   min-height: 85px;
   box-sizing: border-box;
   padding: 0 20px;
+  margin: auto;
 }
 
 .logo {
@@ -58,8 +64,13 @@
   font-size: 12px;
   line-height: 160%;
   text-transform: uppercase;
+  text-decoration: none;
   padding: 10px 20px;
   font-family: "Work Sans", sans-serif;
+}
+
+.nav-items:hover {
+  border-bottom: solid 3px rgb(74, 80, 187);
 }
 
 .nav-btn {
@@ -77,6 +88,7 @@
   cursor: pointer;
   text-transform: uppercase;
   align-items: center;
+  margin-left: 20px;
   font-family: "Work Sans", sans-serif;
 }
 
