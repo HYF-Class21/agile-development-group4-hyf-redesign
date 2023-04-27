@@ -108,6 +108,7 @@
   width: 100%;
   display: flex;
   margin: 50px 0;
+  justify-content: space-between;
 }
 
 .description-title {
@@ -133,34 +134,51 @@
   font-weight: 300;
 }
 
-.description-btn {
-  border: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  font-size: 100%;
-  font-style: normal;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  vertical-align: baseline;
+.description-p b {
+  display: inline;
+  color: rgb(74, 80, 187);
+  font-weight: bold;
+  font-family: "Space Mono", monospace;
 }
 
-.button {
+.description-btn {
   display: inline-flex;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 160%;
-  text-decoration: none;
   font-weight: 600;
   border: 1px solid transparent;
   border-radius: 4px;
   box-sizing: border-box;
-  padding: 10px 20px;
+  padding: 14px 0;
+  margin: 0;
+  text-decoration: none;
+  vertical-align: baseline;
+  align-self: flex-start;
   cursor: pointer;
   text-transform: uppercase;
+  -webkit-box-align: center;
   align-items: center;
   font-family: "Work Sans", sans-serif;
   background-color: transparent;
   color: rgb(74, 80, 187);
+}
+
+.description-btn:hover {
+  background-color: rgb(229, 229, 229);
+}
+
+.description-btn::after {
+  content: "→";
+  margin-left: 5px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 50%;
+  order: 1;
+  animation: slideInFromLeft 1s ease-in;
 }
 
 .description-img {
@@ -168,15 +186,35 @@
   box-sizing: none;
   display: border-box;
   flex-direction: row;
+  width: 50%;
+  object-fit: cover;
   height: 100%;
   justify-content: flex-start;
   max-height: none;
   max-width: none;
-  width: 100%;
   position: relative;
-  flex: 0 1 100%;
+  flex: 1;
+  min-height: 300px;
   margin: 0;
   padding: 0;
+  order: 2;
+  animation: slideInFromRight 1s ease-in;
+}
+
+@media only screen and (max-width: 750px) {
+  .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-container {
+    order: 1;
+  }
+
+  .description-img {
+    order: 2;
+  }
 }
 
 /* Impact section */
