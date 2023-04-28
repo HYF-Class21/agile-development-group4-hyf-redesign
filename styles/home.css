@@ -362,26 +362,32 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-between;
+  justify-content: border-box;
+  justify-items: stretch;
+  align-items: stretch;
 }
 
 .partners-icon-boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   align-items: stretch;
   box-shadow: none;
   box-sizing: border-box;
-  display: inline-block;
-  flex-direction: row;
+  width: 50%;
   height: auto;
   justify-content: flex-start;
-  max-height: none;
-  max-width: none;
-  width: 170px;
   z-index: 0;
   position: static;
   background: none 0% 0% / auto transparent;
   flex: 0 1 170px;
   margin: 0;
   padding: 0;
+}
+
+.partners-icon {
+  height: 200;
+  width: 200;
 }
 
 /* Form section */
