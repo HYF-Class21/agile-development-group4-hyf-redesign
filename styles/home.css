@@ -222,21 +222,36 @@
 .impact {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   padding: 0;
   position: relative;
   box-shadow: none;
   background: none;
   flex: 0 0 auto;
+  animation: enter-animation 1s ease-in;
+}
+
+@keyframes enter-animation {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .impact-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0) 0 0 53px;
   padding: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .impact-title {
@@ -265,31 +280,44 @@
 .impact-boxes {
   display: flex;
   flex-direction: column;
-  background-color: rgb(74, 80, 187);
   width: 30%;
   padding: 20px;
+  background-color: rgb(74, 80, 187);
+  box-sizing: border-box;
 }
 
-.impact-boxes h1 {
+.impact-boxes-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.impact-boxes h2 {
   font-size: 24px;
   line-height: 140%;
   margin-bottom: 20px;
   text-transform: uppercase;
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
-  color: rgba(200, 200, 200, 200);
+  color: rgb(255, 255, 255);
   text-align: left;
   max-width: none;
+  padding: 11px;
 }
 
 .impact-boxes p {
   color: white;
   text-align: left;
   max-width: none;
-  line-height: 160px;
+  line-height: 160%;
   font-size: 16px;
   font-family: "Space Mono", monospace;
   margin: 0;
+  padding: 11px;
+  word-break: break-word;
   font-weight: 300;
 }
 
