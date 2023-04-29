@@ -466,7 +466,7 @@
   width: 100%;
 }
 
-.fields-message {
+.fields-textarea {
   border: 1px solid white;
   border-radius: 3px;
   outline: none;
@@ -475,6 +475,26 @@
   background-color: transparent;
   margin-bottom: 20px;
   width: 100%;
+}
+
+button {
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(45, 48, 55);
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  margin: 20px 0 0 0;
 }
 
 /* Footer section */
