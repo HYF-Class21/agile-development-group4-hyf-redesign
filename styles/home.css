@@ -499,94 +499,52 @@ button {
 
 /* Footer section */
 
-.footer {
+footer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 1280px;
-  padding: 10px 0;
-  margin: 0 auto;
-}
-
-.footer-content {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  justify-content: flex-start;
-  width: 100%;
-  position: static;
-  background: none 0% 0% / auto transparent;
-  flex: 0 1 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.footer-head {
-  font-size: 24px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 700;
-  color: rgb(28, 34, 148);
-  max-width: none;
-}
-
-.footer-text {
-  color: rgb(45, 48, 55);
-  text-align: center;
-  max-width: none;
-  line-height: 160%;
-  font-size: 16px;
-  font-family: "Space Mono", monospace;
-  margin: 0;
-  white-space: pre-wrap;
-  word-break: break-word;
-  font-weight: 300;
-}
-
-.footer-mail {
-  color: rgb(45, 48, 55);
-  text-align: left;
-  max-width: none;
-  line-height: 160%;
-  font-size: 16px;
-  font-family: "Space Mono", monospace;
-  margin: 0;
-  white-space: pre-wrap;
-  word-break: break-word;
-  font-weight: 300;
-}
-
-.footer-links {
-  align-items: stretch;
-  box-shadow: none;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  height: auto;
-  justify-content: center;
-  max-height: none;
-  max-width: none;
-  width: 100%;
-  position: static;
-  background: none 0% 0% / auto transparent;
-  flex: 0 1 100%;
-  margin: 20px 0;
-  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 50px 20px;
 }
 
 .footer-icons {
-  color: rgb(45, 48, 55);
-  text-align: left;
-  max-width: none;
-  line-height: 160%;
-  font-size: 16px;
-  font-family: "Space Mono", monospace;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icons a {
   margin: 0 10px;
-  white-space: pre-wrap;
-  word-break: break-word;
-  font-weight: 300;
+}
+
+/* Animations */
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes enter-animation {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
